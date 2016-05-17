@@ -1,6 +1,6 @@
 .container {
-   width: auto;
-   height: auto;
+   /*width: 560px;
+   height: 1000px;*/
    color: green;
    text-align: center;
 }
@@ -8,6 +8,17 @@
 .grid {
    width: 35px;
    height: 35px;
-   background-color: blue;
+   background-color: yellow;
    display: inline-block;
+   border: 3px black solid;
+}
+
+.buttonClear {
+	width: 100px;
+	text-align: center;
+	border: 5px black solid;
+	background-color: lightgrey;
+	margin: 5px;
+	vertical-align: middle;
+	font-family: sans-serif;
 }
