@@ -1,0 +1,7 @@
+.grid {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border: 10px solid black;
+	margin: 10px;
+}
