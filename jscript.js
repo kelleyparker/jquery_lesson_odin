@@ -1,7 +1,8 @@
 $(document).ready(function() {
-	
-	for (var i = 0; i < 16; i++) {
-		var eachSquare = $("<div class="grid"></div>");
-		eachSquare.appendTo('.container');
-	}
+		for (var x = 0; x < 16; x++) {
+    	for (var y = 0; y < 16; y++) {
+      	var unit = $("<div class='grid'></div>");
+				$(".container").append(unit);
+      }
+    }
 });
