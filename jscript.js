@@ -26,9 +26,9 @@ $(document).ready(function() {
 		}
 
 	$(".buttonClear").click(function(){
-		var numSide = prompt("How many sides do you want for your next grid?");
+		var numSide = prompt("How many squares per side do you want for your next grid?");
 
-		if (numSide > 30) {
+		if (numSide > 65) {
 			var numSide = prompt("Too high, pick a lower number that's greater than 0");
 		}
 
